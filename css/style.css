@@ -183,7 +183,7 @@ h1,h2,h3,h4,h5 {
     margin: 35px 0 30px;
 }
 
-.cards__link {
+.more__link {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #f0454c;
@@ -256,11 +256,134 @@ h1,h2,h3,h4,h5 {
 }
 
 
-.cards__link_margin {
+.more__link_margin {
     margin-left: 20px;
 }
 
   
+
+.team {
+    margin-bottom: 20px;
+}
+
+.team__people {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
   
+.people__text {
+    max-width: 135px;
+    
+}
+
+.team__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__content {
+    width: 330px;
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #314a5b;
+
+}
+
+.team__title_span {
+    color: #fa5c65;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.team__subtitle {
+    color: #9aa0ab;
+    margin: 20px 0 35px;
+}
+
+.team__img {
+    margin-right: 20px;
+}
+
+.people__name {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #314a5b;
+    text-transform: uppercase;
+}
+
+.people__ocupation {
+    font-size: 14px;
+    color: #f0454c;
+    margin: 25px 0 20px;
+}
+
+.people__description {
+    font-size: 14px;
+    color: #9aa0ab;
+    line-height: 1.5;
+
+}
+
+.more__link_position {
+    display: block;
+    width: 100%;
+    text-align: right;
+
+}
+
 
 /* main end */
+
+
+/* footer */
+
+.footer__container::before {
+    content: '';
+    display: block;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+.footer__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border-top: 1px solid #000; */
+    padding-top: 30px;
+    padding-bottom: 160px;
+
+}
+
+.footer__soc {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    font-size: 27px;
+    color: #b9c0c6;
+    margin-right: 10px;
+}
+
+.footer__copy {
+    font-size: 17px;
+    color: #b9c0c6;
+}
+
+
+
+/* footer end */

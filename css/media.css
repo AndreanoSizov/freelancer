@@ -27,8 +27,21 @@
         padding-bottom: 0;
     }
 
+    .team__people {
+        justify-content: space-around;
+    }
+
 }
 @media (max-width: 768px) {
+  
+    .team__subtitle {
+        margin-bottom: 65px;
+    }
+
+    .footer__content {
+        padding-bottom: 30px;
+    }
+}
 
     
 @media (max-width: 576px) {
@@ -54,9 +67,24 @@
         width: 100%;
         object-fit: scale-down;
     }
+    
+    .portfolio__title {
+        font-size: 35px;
+    }
 
     .cards {
         padding-bottom: 0;
     }
+
+    .cards__item {
+        margin-bottom: 50px;
+    }
+
+    .footer__soc {
+        width: 100%;
+    }
+
 }
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+
+}
