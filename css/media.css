@@ -86,5 +86,7 @@
 
 }
 @media (max-width: 320px) {
-
+    .team__content {
+        width: 280px;
+    }
 }
